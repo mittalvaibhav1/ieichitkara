@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
 </head>
 
 <body>
@@ -87,8 +88,34 @@
         
         <img src="img/logoc.png" class="logo animated infinite pulse delay-2s">   <br>
         <img src="img/hero.png" class="heroimg">
-        <p><center><img src="img/down-arrow.png"  class="animated infinite bounce delay-2s" style="position: relative;"></center></p>
+        <p><center><img src="img/down-arrow.png" id="arrow"  class="animated infinite bounce delay-2s" style="position: relative; "></center></p>
+
+
+        <div class = "side-nav">
+          <div tabindex="1" class = "ellipse iei"><p>IEI</p></div>
+          <div tabindex = "2" class = "ellipse event"><p>Event</p></div>
+          <div tabindex = "3" class = "ellipse team"><p>Team</p></div>
+          <div tabindex = "4" class = "ellipse contact"><p>Contact</p></div>
+        </div>
+
+        <div class = "content top" id = "index">
+          <p>IEI</p>
+        </div>
+        <div class = "content middle" >
+          <p>Event</p>
+        </div>
+        <div class = "content semimiddle" >
+          <p>Team</p>
+        </div>
+        <div class = "content bottom">
+          <p>Contact</p>
+        </div>
         
+
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script type="text/javascript" src="js/script.js"></script>        
 </body>
 
 </html>
