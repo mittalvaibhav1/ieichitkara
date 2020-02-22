@@ -34,9 +34,6 @@ body {
 }
 @media (max-width:800px ) 
 {
-    .body{
-        overflow: hidden;
-    }
     .logo{
         height: 12rem;
         margin-top: 20px;
