@@ -5,40 +5,49 @@ body {
     
 }
 .logo{
-    height: 20rem;
-    margin-left: 350px;
+    height: 16.99rem;
+    margin-left: 370px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
 .heroimg {
-    height: 22rem;
+    height: 19.5rem;
     margin-top:0px;
 }
-@media (max-width:550px)
+@media (max-width:660px)
 {
     .heroimg {
-    height: 9rem;
-    position: relative;
+    height: 9.5rem;
     }
     .width-wrapper{
         margin-top: 2rem;
         visibility: hidden;
     }
     .logo{
-        height: 20rem;
-        margin-left: 10.5rem;
+        height: 9rem;
         margin-top: 20px;
+        margin-left: 7.5rem;
+    }
+    .body{
+        overflow: hidden;
     }
 }
-@media (max-width:1000px)
+@media (max-width:800px ) 
 {
+    .body{
+        overflow: hidden;
+    }
+    .logo{
+        height: 12rem;
+        margin-top: 20px;
+        margin-left: 8rem;
+    }
     .heroimg {
-    height: 15rem;
-    position: absolute;
-    z-index: -1;
+    height: 9em;
     }
     .width-wrapper{
        padding-top:30rem;
+       visibility: hidden;
     }
 }
 .width-wrapper {
@@ -47,7 +56,7 @@ body {
     margin: 0 auto;
     position: relative;
     padding: 0 2rem;
-    margin-top: 2em;
+    margin-top: 0em;
 }
 
 @media (max-width: 550px) {
