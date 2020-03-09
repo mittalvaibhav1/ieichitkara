@@ -1,51 +1,26 @@
+
 body {
     background-color: #131417;
     margin: 0;
     padding: 0;
     
 }
-.logo{
-    height: 16.99rem;
-    margin-left: 370px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+#footer ul{
+    text-align: center;
 }
-.heroimg {
-    height: 19.5rem;
-    margin-top:0px;
+#footer li{
+ display: inline-block;
+ font-size: 30px;
+ letter-spacing: 18px;
 }
-@media (max-width:660px)
+@media (max-width:1100px)
 {
-    .heroimg {
-    height: 9.5rem;
-    }
+
     .width-wrapper{
         margin-top: 2rem;
-        visibility: hidden;
+       display: none;
     }
-    .logo{
-        height: 9rem;
-        margin-top: 20px;
-        margin-left: 7.5rem;
-    }
-    .body{
-        overflow: hidden;
-    }
-}
-@media (max-width:800px ) 
-{
-    .logo{
-        height: 12rem;
-        margin-top: 20px;
-        margin-left: 8rem;
-    }
-    .heroimg {
-    height: 9em;
-    }
-    .width-wrapper{
-       padding-top:30rem;
-       visibility: hidden;
-    }
+
 }
 .width-wrapper {
     width:100%;

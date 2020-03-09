@@ -4,7 +4,18 @@ $( document ).ready(function() {
   $(".home").focus();*/
   $('.side-nav').hide();
   var speed = 1600;
-  
+  var x=$('.top').offset().top 
+  $(window).scroll(function() {
+   if($(document).scrollTop()<x-20)
+   {
+    $('.side-nav').hide();
+    console.log("hell");
+   }
+   else{
+    $('.side-nav').show();
+   }
+   console.log("What");
+});
   function vis(){
     $('.side-nav').delay(1600).slideDown();
   }
@@ -12,13 +23,15 @@ $( document ).ready(function() {
     $('html, body').stop().animate({ 
       scrollTop: $('.top').offset().top 
     }, speed, vis());
+    
   })
 
 
   $(".iei").click(function(){
     $('html, body').stop().animate({ 
       scrollTop: $('.top').offset().top 
-    }, speed);        
+    }, speed); 
+ 
   })
   
   $(".event").click(function(){

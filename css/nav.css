@@ -63,7 +63,6 @@ body {
   top: 50%;
   transform: translateY(-60%);
   transition: all ease 0.5s;
-  cursor: crosshair;
 }
 .content p:hover {
   color: #EACDC2;
