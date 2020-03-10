@@ -9,12 +9,17 @@ $( document ).ready(function() {
   var speed = 1600;
   var x=$('.top').offset().top 
   $(window).scroll(function() {
+    
    if($(document).scrollTop()<x-20)
    {
     $('.side-nav').hide();
    }
    else{
     $('.side-nav').show();
+   }
+   if($(document).width()<900)
+   {
+    $('.side-nav').hide();
    }
 });
   function vis(){

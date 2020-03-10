@@ -28,10 +28,19 @@ body {
 .ellipse:hover{
   border-color:#AB1154!important;
 }
-@media(max-width:900px)
+#footer{
+  padding:3.8rem;
+}
+@media(max-width:1000px)
 {
+  #footer{
+    padding:5.6rem; 
+  }
   .side-nav{
     display: none;
+  }
+  .content{
+    height: 70%;
   }
   #arrow{
     display: none;
