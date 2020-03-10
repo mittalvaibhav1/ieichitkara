@@ -2,6 +2,9 @@
 $( document ).ready(function() {
   /*document.location.href="#index";
   $(".home").focus();*/
+  $('#mapwa').click(function(){
+    $('.gm-fullscreen-control').click()
+  });
   $('.side-nav').hide();
   var speed = 1600;
   var x=$('.top').offset().top 
