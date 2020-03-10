@@ -9,14 +9,14 @@ body, html {
 body {
   background-color:  #131417;
   font-family: "OCRB";
-  color: #774C60;
+  color: black;
 }
 
 .side-nav {
   font-family: "Roboto Slab";
   text-transform: uppercase;
-  font-size: 8px;
-  color: #EFDAD2;
+  font-size: 20px;
+  color: white;
   position: fixed;
   top: 50%;
   transform: translateY(-50%);
@@ -24,6 +24,18 @@ body {
   cursor: pointer;
   z-index: 1;
   transition: all ease 0.5s;
+}
+.ellipse:hover{
+  border-color:#AB1154!important;
+}
+@media(max-width:900px)
+{
+  .side-nav{
+    display: none;
+  }
+  #arrow{
+    display: none;
+  }
 }
 .side-nav p {
   margin: 0;
@@ -34,23 +46,24 @@ body {
   transition: all ease 0.5s;
 }
 .side-nav .ellipse {
-  width: 10px;
-  height: 10px;
+  width: 1px;
+  height: 20px;
   margin-bottom: 10px;
-  border-radius: 100%;
+  border-radius: 0%;
   border-style: solid;
-  border-color: #EACDC2;
+  border-color: white;
   transition: all ease 0.5s;
 }
 .side-nav .ellipse:hover {
-  background-color: #EACDC2;
+  background-color:palevioletred;
+  color: palevioletred;
 }
 .side-nav .ellipse:hover p {
   opacity: 1;
 }
 .side-nav .ellipse:focus {
   outline: 0;
-  background-color: #EACDC2;
+  background-color: palevioletred;
 }
 
 .content {

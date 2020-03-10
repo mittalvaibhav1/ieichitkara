@@ -104,6 +104,15 @@ ul li {
 }
 @media(max-width:900px)
 {
+  .slider--teams {
+    position: relative;
+    top: 30%;
+    left: 50%;
+    max-width: 750px;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
   #list li figure > div {
     border-radius: 50%;
     position: relative;
@@ -121,10 +130,23 @@ ul li {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 110px;
-    height: 110px;
+    width: 130px;
+    height: 130px;
     -webkit-transform: rotate(-45deg) translate(0%, -70%);
             transform: rotate(-45deg) translate(0%, -70%);
+  }
+  #list li figure figcaption h2 {
+    color: #333;
+    font-size: 20px!important;
+    font-weight: 800!important;
+    text-align:center!important;
+  }
+  #list li figure figcaption p {
+    color: #666;
+    margin: 10px;
+    font-size: 15px!important;
+    text-align:center!important;
+    font-weight: 400;
   }
 }
 #list li figure figcaption h2 {
