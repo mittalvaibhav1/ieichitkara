@@ -40,6 +40,11 @@ body {
     width: 100% !important;
     float: none;
   }
+  #footer li {
+    display: inline-block;
+    font-size: 23px;
+    letter-spacing: 12px;
+  }
   .mapwaa {
     display: none;
   }
