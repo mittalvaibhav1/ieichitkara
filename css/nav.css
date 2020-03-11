@@ -29,6 +29,7 @@ body {
   border-color:#AB1154!important;
 }
 #footer{
+  padding-top: 150px!important;
   padding:3.8rem;
 }
 @media(max-width:1000px)
@@ -40,10 +41,19 @@ body {
     display: none;
   }
   .content{
-    height: 70%;
+    height: 50%!important;
   }
   #arrow{
     display: none;
+  }
+  .slider--teams {
+    position: relative;
+    top: 45%!important;
+    left: 50%;
+    max-width: 750px;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
   }
 }
 .side-nav p {
@@ -100,6 +110,7 @@ body {
   background-color: #131417;
   padding-top: 0px;
   margin-top: 0px;
+  height: auto!important;
 }
 
 #arrow{

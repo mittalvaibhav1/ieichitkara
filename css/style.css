@@ -60,8 +60,11 @@ body {
 .column {
   float: left;
   width: 50%;
+  height: inherit;
 }
-
+.row{
+  height: 100%;
+}
 .width-wrapper {
   width: 100%;
   max-width: 1200px;
