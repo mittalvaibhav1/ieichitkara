@@ -1,1 +1,1 @@
-IE(I) CUPB 2020
+## The Official Website For IE(I) Student Chapter Chitkara University
