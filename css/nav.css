@@ -101,13 +101,19 @@ body {
   color: #EACDC2;
 }
 
+.top{
+  background-color:white;
+}
+.bottom{
+  background-color:#ebedfd;
+}
 .middle {
-  background-color: #C6878F;
+  background-color:#ebedfd ;
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
 .semimiddle{
-  background-color:#334756;
+  background-color:white;
   padding-bottom: 0px;
   margin-bottom: 0px;
 }

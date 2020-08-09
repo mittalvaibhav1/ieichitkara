@@ -28,8 +28,8 @@ ul li {
 
 .slider--teams {
   position: relative;
-  top: 30%;
-  left: 47%;
+  top: 35%;
+  left: 48.5%;
   max-width: 750px;
   overflow: hidden;
   opacity: 0;
@@ -102,9 +102,9 @@ ul li {
 {
   .slider--teams {
     position: relative;
-    top: 30%;
-    left: 50%;
-    max-width: 750px;
+    top: 60%!important;
+    left: 45vw!important;
+    max-width: 850px;
     opacity: 0;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
@@ -131,21 +131,22 @@ ul li {
             transform: rotate(-45deg) translate(0%, -70%);
   }
   #list li figure figcaption h2 {
-    color:whitesmoke!important;
+    color:black!important;
     font-size: 20px!important;
     font-weight: 800!important;
     text-align:center!important;
+    margin: 10px!important;
   }
   #list li figure figcaption p {
     color: #666;
-    margin: 10px;
+    margin: 10px!important
     font-size: 15px!important;
     text-align:center!important;
     font-weight: 400;
   }
 }
 #list li figure figcaption h2 {
-  color: whitesmoke!important;
+  color: black!important;
   font-size: 2rem;
   font-weight: 800;
 }

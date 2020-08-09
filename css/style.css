@@ -3,35 +3,20 @@ body {
   margin: 0;
   padding: 0;
 }
-.mobile-container {
-  height: 92vh;
-  widows: 100vw;
-  padding-top: 40vh;
-  text-align: center;
+.nav{
+  background-color: #4572ad;
 }
-.herotext h1{
-  font-size: 3.8rem!important;
-  margin:40px;
+#wel{
+ font-size: 40px;
+ font-weight: 700;
+ padding: 5px;
+ color: white;
+ font-family: 'Lato', Calibri, Arial, san-serif;
 }
-.heroimg{
-        background-size: 100%;
-        background-repeat: no-repeat;
-        margin-top: 0px;
-        padding-top: 0px;
-}
-@media(max-width:900px){
-
-  .herotext h1{
-      font-size: 1.8rem!important;
-  }
-  .heroimg{
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-top: 0px;
-    padding-top: 0px;
-    height: 89vh;
-    overflow: hidden;
-  }
+@media(max-width: 768){
+  #wel{
+    font-size: 5px;
+   }
 }
 
 .herotext {
@@ -42,16 +27,23 @@ body {
   padding: 30px;
   color: white;
   text-transform: uppercase;
-  color: #E1F5FE;
   font-family: 'Monoton';
   font-weight: 2000!important;
+  text-shadow: 5px 5px 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+.herotext h1{
+  font-size: 3.8rem!important;
+  margin:40px;
 }
 @media(max-width:900px){
  .herotext{
-     font-size: 12px!important;
      padding:1px!important;
      top:8rem!important;
  }
+ .herotext h1{
+  font-size: 8vw!important;
+ }
+}
 }
 #mapwa {
   transition: all 1s ease-in-out;
@@ -87,7 +79,7 @@ body {
 }
 .width-wrapper {
   width: 100%;
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   position: relative;
   padding: 0 2rem;
@@ -278,12 +270,12 @@ body {
 }
 
 .HomepageHeaderHero_editorCode-3CTeM.HomepageHeaderHero_html-ueGRa {
-  right: 20px;
+  right: 60px;
   top: -20px;
 }
 
 .HomepageHeaderHero_editorCode-3CTeM.HomepageHeaderHero_css-1Q0Wd {
-  right: -30px;
+  right: 140px;
   top: 130px;
 }
 
@@ -352,7 +344,7 @@ body {
 
   .HomepageHeaderHero_editorCode-3CTeM.HomepageHeaderHero_css-1Q0Wd {
     top: 80px;
-    right: 2.5%;
+    right: -130px;
   }
 
   .HomepageHeaderHero_editorCode-3CTeM.HomepageHeaderHero_js-3le8D {
