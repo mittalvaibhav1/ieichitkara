@@ -54,6 +54,23 @@ $(document).ready(function () {
       scrollTop: $('.bottom').offset().top
     }, speed);
   })
+
+  //upcoming event hover css
+  $('.card').hover(function(){
+    $(this).css("box-shadow", "0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.35)");
+  }, function() {
+    $(this).css("box-shadow", "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)");
+  });
+
+  /*previous events modal
+  $('a.prev').click(function(e){
+    e.preventDefault();
+    var href = $(this).attr('href');
+    console.log(href);
+    $(href).modal();
+  });
+*/
+
 });
 
 
@@ -96,5 +113,6 @@ function init_map() {
     infowindow.open(map, marker);
   });
   infowindow.open(map, marker);
+
 }
 google.maps.event.addDomListener(window, "load", init_map);
