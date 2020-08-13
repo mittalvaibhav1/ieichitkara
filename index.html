@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
 </head>
 
 <body style="background-image: url('img/ml-sig.png'); background-size:cover;background-repeat: no-repeat;">
@@ -150,8 +152,245 @@
   </div>
   <!--Events By IE(I)-->
   <div class="content middle">
-    <p>Event</p>
+    <!--Upcoming Events-->
+    <div id="upcoming" class="container">
+      <div class="row row-content">
+        <div class="col-12 mb-5 mt-3">
+          <h1 class="text-center">Upcoming Events</h3>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col-12 col-md-4">
+          <div class="card upcoming" style="box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)">
+            <div class="card-body m-4">
+              <h5 class="text-center"> Event Name </h5>
+              <h5 class="text-center">25 Aug</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card upcoming" >
+            <div class="card-body m-4">
+              <h5 class="text-center"> Event Name </h5>
+              <h5 class="text-center">25 Aug</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card upcoming" >
+            <div class="card-body m-4">
+              <h5 class="text-center"> Event Name </h5>
+              <h5 class="text-center">25 Aug</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col-12 col-md-4">
+          <div class="card upcoming" >
+            <div class="card-body m-4">
+              <h5 class="text-center"> Event Name </h5>
+              <h5 class="text-center">25 Aug</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card upcoming" >
+            <div class="card-body m-4">
+              <h5 class="text-center"> Event Name </h5>
+              <h5 class="text-center">25 Aug</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card upcoming" >
+            <div class="card-body m-4">
+              <h5 class="text-center"> Event Name </h5>
+              <h5 class="text-center">25 Aug</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col-12 col-md-4">
+          <div class="card upcoming" >
+            <div class="card-body m-4">
+              <h5 class="text-center"> Event Name </h5>
+              <h5 class="text-center">25 Aug</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card upcoming" >
+            <div class="card-body m-4">
+              <h5 class="text-center"> Event Name </h5>
+              <h5 class="text-center">25 Aug</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card upcoming" >
+            <div class="card-body m-4">
+              <h5 class="text-center"> Event Name </h5>
+              <h5 class="text-center">25 Aug</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+  <div class="middle" style="height: 100%; width: 100%; padding-bottom: 100px;">
+    <div id="previous" class="container">
+      <div class="row row-content">
+        <div class="col-12 mb-5 mt-3">
+          <h1 class="text-center">Previous Events</h3>
+        </div>
+      </div>
+      <div class="row justify-content-around">
+        <div class="col-12 col-md-5">
+          <a class="btn" href="#event1" rel="modal:open">
+            <div class="card" style="width: 30rem;">
+              <img class="card-img-top" src="./img//dummy.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-center">Event 1 Name</h5>
+                <h6 class="card-subtitle mb-2 text-muted text-center">Card subtitle</h6>
+              </div>
+            </div>
+          </a>
+          <!--modal-->
+          <div id="event1" class="modal" style="display: none; height: auto;">
+            <h5 class="card-title text-center">Event 1 Name</h5>
+            <h6 class="card-subtitle mb-2 text-muted text-center">Card subtitle</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+          <!--modal end-->
+        </div>
+        <div class="col-12 col-md-5">
+          <a class="btn" href="#event2" rel="modal:open">
+            <div class="card" style="width: 30rem;">
+              <img class="card-img-top" src="./img//dummy.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-center">Event 2 Name</h5>
+                <h6 class="card-subtitle mb-2 text-muted text-center">Card subtitle</h6>
+              </div>
+            </div>
+          </a>
+          <!--modal-->
+          <div id="event2" class="modal" style="display: none; height: auto;">
+            <h5 class="card-title text-center">Event 2 Name</h5>
+            <h6 class="card-subtitle mb-2 text-muted text-center">Card subtitle</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+          <!--modal end-->
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="middle" style="height: 100%; width: 100%">
+      <div id="previous" class="container">
+        <div class="row justify-content-around" style="padding-top: 4rem;">
+          <div class="col-12 col-md-5">
+            <a class="btn" href="#event3" rel="modal:open">
+              <div class="card" style="width: 30rem;">
+                <img class="card-img-top" src="./img//dummy.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Event 3 Name</h5>
+                  <h6 class="card-subtitle mb-2 text-muted text-center">Card subtitle</h6>
+                </div>
+              </div>
+            </a>
+            <!--modal-->
+            <div id="event3" class="modal" style="display: none; height: auto;">
+              <h5 class="card-title text-center">Event 3 Name</h5>
+              <h6 class="card-subtitle mb-2 text-muted text-center">Card subtitle</h6>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <!--modal end-->
+          </div>
+          <div class="col-12 col-md-5">
+            <a class="btn" href="#event4" rel="modal:open">
+              <div class="card" style="width: 30rem;">
+                <img class="card-img-top" src="./img//dummy.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Event 4 Name</h5>
+                  <h6 class="card-subtitle mb-2 text-muted text-center">Card subtitle</h6>
+                </div>
+              </div>
+            </a>
+            <!--modal-->
+            <div id="event4" class="modal" style="display: none; height: auto;">
+              <h5 class="card-title text-center">Event 4 Name</h5>
+              <h6 class="card-subtitle mb-2 text-muted text-center">Card subtitle</h6>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <!--modal end-->
+          </div>
+          </div>
+        </div>
+    </div>
+    <div class="middle" style="height: 100%; width: 100%">
+      <div id="previous" class="container">
+        <div class="row justify-content-around">
+          <div class="col-12 col-md-5">
+            <a class="btn" href="#event5" rel="modal:open">
+              <div class="card" style="width: 30rem;">
+                <img class="card-img-top" src="./img//dummy.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Event 5 Name</h5>
+                  <h6 class="card-subtitle mb-2 text-muted text-center">Card subtitle</h6>
+                </div>
+              </div>
+            </a>
+            <!--modal-->
+            <div id="event5" class="modal" style="display: none; height: auto;">
+              <h5 class="card-title text-center">Event 5 Name</h5>
+              <h6 class="card-subtitle mb-2 text-muted text-center">Card subtitle</h6>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <!--modal end-->
+          </div>
+          <div class="col-12 col-md-5">
+            <a class="btn" href="#event6" rel="modal:open">
+              <div class="card" style="width: 30rem;">
+                <img class="card-img-top" src="./img//dummy.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Event 6 Name</h5>
+                  <h6 class="card-subtitle mb-2 text-muted text-center">Card subtitle</h6>
+                </div>
+              </div>
+            </a>
+            <!--modal-->
+            <div id="event6" class="modal" style="display: none; height: auto;">
+              <h5 class="card-title text-center">Event 6 Name</h5>
+              <h6 class="card-subtitle mb-2 text-muted text-center">Card subtitle</h6>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <!--modal end-->
+          </div>
+          </div>
+        </div>
+    </div>
+      
+
+  
   <!-- Navigation And Contact Us Section-->
   <div class="container content semimiddle" style="max-width: 100%!important;">
     <div class="row" style="height:100%;">
@@ -439,12 +678,16 @@
       </div>
     </div>
   </div>
+
+  
+
   </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.1.0/velocity.min.js"></script>
-  <script src="js/team.js"></script>
   <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
   <script type="text/javascript" src="js/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.1.0/velocity.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+  <script src="js/team.js"></script>
 </body>
 
 </html>
